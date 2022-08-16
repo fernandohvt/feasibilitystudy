@@ -1,0 +1,342 @@
+src/libcoap_3-openssl_la-coap_tinydtls.lo: src/coap_tinydtls.c \
+ /usr/include/stdc-predef.h include/coap3/coap_internal.h coap_config.h \
+ /usr/include/assert.h /usr/include/features.h \
+ /usr/include/arm-linux-gnueabihf/sys/cdefs.h \
+ /usr/include/arm-linux-gnueabihf/bits/wordsize.h \
+ /usr/include/arm-linux-gnueabihf/bits/long-double.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs.h \
+ /usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h include/coap3/coap.h \
+ include/coap3/libcoap.h /usr/include/netinet/in.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdint-uintn.h \
+ /usr/include/arm-linux-gnueabihf/bits/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/typesizes.h \
+ /usr/include/arm-linux-gnueabihf/sys/socket.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_iovec.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/8/include/stddef.h \
+ /usr/include/arm-linux-gnueabihf/bits/socket.h \
+ /usr/include/arm-linux-gnueabihf/sys/types.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/clock_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/clockid_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/time_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/timer_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdint-intn.h \
+ /usr/include/endian.h /usr/include/arm-linux-gnueabihf/bits/endian.h \
+ /usr/include/arm-linux-gnueabihf/bits/byteswap.h \
+ /usr/include/arm-linux-gnueabihf/bits/uintn-identity.h \
+ /usr/include/arm-linux-gnueabihf/sys/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/select.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/sigset_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/__sigset_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_timeval.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_timespec.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h \
+ /usr/include/arm-linux-gnueabihf/bits/thread-shared-types.h \
+ /usr/include/arm-linux-gnueabihf/bits/pthreadtypes-arch.h \
+ /usr/include/arm-linux-gnueabihf/bits/socket_type.h \
+ /usr/include/arm-linux-gnueabihf/bits/sockaddr.h \
+ /usr/include/arm-linux-gnueabihf/asm/socket.h \
+ /usr/include/asm-generic/socket.h \
+ /usr/include/arm-linux-gnueabihf/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_osockaddr.h \
+ /usr/include/arm-linux-gnueabihf/bits/in.h \
+ include/coap3/coap_forward_decls.h include/coap3/address.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/8/include/stdint.h \
+ /usr/include/stdint.h \
+ /usr/include/arm-linux-gnueabihf/bits/libc-header-start.h \
+ /usr/include/arm-linux-gnueabihf/bits/wchar.h /usr/include/string.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/locale_t.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/__locale_t.h \
+ /usr/include/strings.h include/coap3/libcoap.h include/coap3/async.h \
+ include/coap3/net.h /usr/include/stdlib.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitflags.h \
+ /usr/include/arm-linux-gnueabihf/bits/waitstatus.h \
+ /usr/include/arm-linux-gnueabihf/bits/floatn.h \
+ /usr/include/arm-linux-gnueabihf/bits/floatn-common.h \
+ /usr/include/alloca.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h \
+ /usr/include/arm-linux-gnueabihf/bits/stdlib-float.h \
+ /usr/include/arm-linux-gnueabihf/sys/time.h /usr/include/time.h \
+ /usr/include/arm-linux-gnueabihf/bits/time.h \
+ /usr/include/arm-linux-gnueabihf/bits/timex.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_tm.h \
+ /usr/include/arm-linux-gnueabihf/bits/types/struct_itimerspec.h \
+ include/coap3/coap_io.h include/coap3/address.h \
+ include/coap3/coap_dtls.h include/coap3/coap_time.h include/coap3/str.h \
+ include/coap3/coap_event.h include/coap3/pdu.h include/coap3/uri.h \
+ include/coap3/option.h include/coap3/coap_session.h \
+ include/coap3/block.h include/coap3/encode.h include/coap3/coap_cache.h \
+ include/coap3/coap_forward_decls.h include/coap3/coap_debug.h \
+ /usr/include/syslog.h /usr/include/arm-linux-gnueabihf/sys/syslog.h \
+ /usr/lib/gcc/arm-linux-gnueabihf/8/include/stdarg.h \
+ /usr/include/arm-linux-gnueabihf/bits/syslog-path.h \
+ include/coap3/coap_dtls.h include/coap3/coap_event.h \
+ include/coap3/coap_io.h include/coap3/coap_prng.h \
+ include/coap3/coap_time.h include/coap3/encode.h include/coap3/mem.h \
+ include/coap3/net.h include/coap3/option.h include/coap3/pdu.h \
+ include/coap3/resource.h include/coap3/async.h include/coap3/block.h \
+ include/coap3/subscribe.h include/coap3/str.h include/coap3/subscribe.h \
+ include/coap3/uri.h include/coap3/utlist.h include/coap3/uthash.h \
+ include/coap3/coap_hashkey.h include/coap3/coap_mutex.h \
+ include/coap3/coap_asn1_internal.h include/coap3/coap_async_internal.h \
+ include/coap3/coap_block_internal.h include/coap3/coap_pdu_internal.h \
+ include/coap3/resource.h include/coap3/coap_cache_internal.h \
+ include/coap3/coap_dtls_internal.h include/coap3/coap_io_internal.h \
+ include/coap3/coap_net_internal.h include/coap3/coap_session_internal.h \
+ include/coap3/coap_resource_internal.h \
+ include/coap3/coap_subscribe_internal.h \
+ include/coap3/coap_tcp_internal.h
+
+/usr/include/stdc-predef.h:
+
+include/coap3/coap_internal.h:
+
+coap_config.h:
+
+/usr/include/assert.h:
+
+/usr/include/features.h:
+
+/usr/include/arm-linux-gnueabihf/sys/cdefs.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wordsize.h:
+
+/usr/include/arm-linux-gnueabihf/bits/long-double.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs.h:
+
+/usr/include/arm-linux-gnueabihf/gnu/stubs-hard.h:
+
+include/coap3/coap.h:
+
+include/coap3/libcoap.h:
+
+/usr/include/netinet/in.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdint-uintn.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types.h:
+
+/usr/include/arm-linux-gnueabihf/bits/typesizes.h:
+
+/usr/include/arm-linux-gnueabihf/sys/socket.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/struct_iovec.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/8/include/stddef.h:
+
+/usr/include/arm-linux-gnueabihf/bits/socket.h:
+
+/usr/include/arm-linux-gnueabihf/sys/types.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/clock_t.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/clockid_t.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/time_t.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/timer_t.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdint-intn.h:
+
+/usr/include/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/endian.h:
+
+/usr/include/arm-linux-gnueabihf/bits/byteswap.h:
+
+/usr/include/arm-linux-gnueabihf/bits/uintn-identity.h:
+
+/usr/include/arm-linux-gnueabihf/sys/select.h:
+
+/usr/include/arm-linux-gnueabihf/bits/select.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/sigset_t.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/__sigset_t.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/struct_timeval.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/struct_timespec.h:
+
+/usr/include/arm-linux-gnueabihf/bits/pthreadtypes.h:
+
+/usr/include/arm-linux-gnueabihf/bits/thread-shared-types.h:
+
+/usr/include/arm-linux-gnueabihf/bits/pthreadtypes-arch.h:
+
+/usr/include/arm-linux-gnueabihf/bits/socket_type.h:
+
+/usr/include/arm-linux-gnueabihf/bits/sockaddr.h:
+
+/usr/include/arm-linux-gnueabihf/asm/socket.h:
+
+/usr/include/asm-generic/socket.h:
+
+/usr/include/arm-linux-gnueabihf/asm/sockios.h:
+
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/struct_osockaddr.h:
+
+/usr/include/arm-linux-gnueabihf/bits/in.h:
+
+include/coap3/coap_forward_decls.h:
+
+include/coap3/address.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/8/include/stdint.h:
+
+/usr/include/stdint.h:
+
+/usr/include/arm-linux-gnueabihf/bits/libc-header-start.h:
+
+/usr/include/arm-linux-gnueabihf/bits/wchar.h:
+
+/usr/include/string.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/locale_t.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/__locale_t.h:
+
+/usr/include/strings.h:
+
+include/coap3/libcoap.h:
+
+include/coap3/async.h:
+
+include/coap3/net.h:
+
+/usr/include/stdlib.h:
+
+/usr/include/arm-linux-gnueabihf/bits/waitflags.h:
+
+/usr/include/arm-linux-gnueabihf/bits/waitstatus.h:
+
+/usr/include/arm-linux-gnueabihf/bits/floatn.h:
+
+/usr/include/arm-linux-gnueabihf/bits/floatn-common.h:
+
+/usr/include/alloca.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdlib-bsearch.h:
+
+/usr/include/arm-linux-gnueabihf/bits/stdlib-float.h:
+
+/usr/include/arm-linux-gnueabihf/sys/time.h:
+
+/usr/include/time.h:
+
+/usr/include/arm-linux-gnueabihf/bits/time.h:
+
+/usr/include/arm-linux-gnueabihf/bits/timex.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/struct_tm.h:
+
+/usr/include/arm-linux-gnueabihf/bits/types/struct_itimerspec.h:
+
+include/coap3/coap_io.h:
+
+include/coap3/address.h:
+
+include/coap3/coap_dtls.h:
+
+include/coap3/coap_time.h:
+
+include/coap3/str.h:
+
+include/coap3/coap_event.h:
+
+include/coap3/pdu.h:
+
+include/coap3/uri.h:
+
+include/coap3/option.h:
+
+include/coap3/coap_session.h:
+
+include/coap3/block.h:
+
+include/coap3/encode.h:
+
+include/coap3/coap_cache.h:
+
+include/coap3/coap_forward_decls.h:
+
+include/coap3/coap_debug.h:
+
+/usr/include/syslog.h:
+
+/usr/include/arm-linux-gnueabihf/sys/syslog.h:
+
+/usr/lib/gcc/arm-linux-gnueabihf/8/include/stdarg.h:
+
+/usr/include/arm-linux-gnueabihf/bits/syslog-path.h:
+
+include/coap3/coap_dtls.h:
+
+include/coap3/coap_event.h:
+
+include/coap3/coap_io.h:
+
+include/coap3/coap_prng.h:
+
+include/coap3/coap_time.h:
+
+include/coap3/encode.h:
+
+include/coap3/mem.h:
+
+include/coap3/net.h:
+
+include/coap3/option.h:
+
+include/coap3/pdu.h:
+
+include/coap3/resource.h:
+
+include/coap3/async.h:
+
+include/coap3/block.h:
+
+include/coap3/subscribe.h:
+
+include/coap3/str.h:
+
+include/coap3/subscribe.h:
+
+include/coap3/uri.h:
+
+include/coap3/utlist.h:
+
+include/coap3/uthash.h:
+
+include/coap3/coap_hashkey.h:
+
+include/coap3/coap_mutex.h:
+
+include/coap3/coap_asn1_internal.h:
+
+include/coap3/coap_async_internal.h:
+
+include/coap3/coap_block_internal.h:
+
+include/coap3/coap_pdu_internal.h:
+
+include/coap3/resource.h:
+
+include/coap3/coap_cache_internal.h:
+
+include/coap3/coap_dtls_internal.h:
+
+include/coap3/coap_io_internal.h:
+
+include/coap3/coap_net_internal.h:
+
+include/coap3/coap_session_internal.h:
+
+include/coap3/coap_resource_internal.h:
+
+include/coap3/coap_subscribe_internal.h:
+
+include/coap3/coap_tcp_internal.h:
